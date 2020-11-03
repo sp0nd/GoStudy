@@ -14,10 +14,10 @@ import (
 //!+decl
 import "image/color"
 
-type Point struct{ X, Y float64 }
+type Point struct{ X, Y float64 }    //x,y 의 타입은 float
 
 type ColoredPoint struct {
-	Point
+	Point 
 	Color color.RGBA
 }
 
